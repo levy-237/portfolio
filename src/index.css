@@ -1,0 +1,140 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+.header > a {
+  margin-top: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+  font-size: 22px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.header > a:hover {
+  color: rgb(86, 31, 150);
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  color: white;
+  font-family: optima, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #171717;
+}
+.description {
+  height: 75vh;
+}
+.description > h1 {
+  margin-top: 150px;
+  color: white;
+  font-size: 50px;
+  line-height: 70px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+.icons {
+  margin-left: 70px;
+}
+.icons > span {
+  margin: 15px;
+}
+.description > p {
+  font-size: 15px;
+  font-family: serif;
+}
+.dev {
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+.dev > span {
+  margin: 20px;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 120px;
+}
+.project {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 300px;
+  padding-left: 70px;
+  grid-gap: 40px;
+}
+.project-photo1 {
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-photo2 {
+  background-image: url("./images/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+}
+.project-photo3 {
+  background-image: url("./images/3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.project-description {
+  padding-top: 40px;
+  padding-left: 10px;
+  font-size: 17px;
+  line-height: 20px;
+}
+.b-tag {
+  margin-top: 50px;
+}
+.r {
+  padding-right: 20px;
+}
+.project-r {
+  padding-top: 30px;
+}
+.project-end {
+  margin-top: 30px;
+}
+.project-github {
+  margin-right: 80px;
+}
+.project-live {
+  margin-left: 15px;
+}
+.about-grid {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+.contact {
+  width: 600px;
+}
+.about-p {
+  margin-top: 0px;
+
+  width: 600px;
+}
+.phone {
+  font-size: larger;
+}
+.email {
+  font-size: larger;
+}
