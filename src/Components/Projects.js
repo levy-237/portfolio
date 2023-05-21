@@ -55,7 +55,7 @@ export default function Projects() {
             </Link>
             LIVE DEMO
             <Link
-              to="https://yelpcamp-demo.onrender.com/campgrounds"
+              to="https://yelpcamp-demo.onrender.com/"
               target="_blank"
             >
               <span className="project-live">
