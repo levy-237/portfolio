@@ -3,6 +3,8 @@ import Header from "./Components/Header";
 import Description from "./Components/Description";
 import Projects from "./Components/Projects";
 import About from "./Components/About";
+import { Analytics } from "@vercel/analytics/react";
+
 function App() {
   return (
     <div>
@@ -10,6 +12,7 @@ function App() {
       <Description />
       <Projects />
       <About />
+      <Analytics />
     </div>
   );
 }
