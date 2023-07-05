@@ -12,11 +12,7 @@ export default function Projects() {
           purchase a beautiful collection of handcrafted jewelry. Created using
           ReactJS, and CSS, this project offers a nice experience for customers.
           Browse through curated categories, easily add items to your cart, and
-          proceed to a hassle-free checkout. Immerse yourself in the world of
-          fine craftsmanship and discover the perfect pieces for any occasion.
-          At Jewelry Shop, we combine passion for design with a user-friendly
-          experience, making your jewelry shopping journey delightful and
-          enjoyable.
+          proceed to a hassle-free checkout. 
           <div className="project-r">
             <span className="r">React</span>
             <span>CSS3</span>
